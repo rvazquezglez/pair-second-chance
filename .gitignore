@@ -1,4 +1,9 @@
-/visitor/visitor.iml
 /.idea
 /pair-second-chance.iml
+/visitor/build/
+/visitor/visitor.iml
+/observer-chat/build/
+/observer-chat/observer-chat.iml
+/strategy/build/
+/strategy/observer-chat.iml
 # Created by .ignore support plugin (hsz.mobi)
