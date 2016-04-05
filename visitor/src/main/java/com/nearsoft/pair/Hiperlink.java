@@ -1,5 +1,7 @@
 package com.nearsoft.pair;
 
+import com.nearsoft.pair.visitor.Visitor;
+
 public class Hiperlink extends DocumentPart {
 
     private String url;

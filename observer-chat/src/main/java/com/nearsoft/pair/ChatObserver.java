@@ -9,7 +9,6 @@ import java.util.Objects;
 
 import static j2html.TagCreator.*;
 
-// Java already has java.util.Observer
 public class ChatObserver {
 
     private final Session _session;

@@ -1,5 +1,7 @@
 package com.nearsoft.pair;
 
+import com.nearsoft.pair.visitor.Visitor;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package com.nearsoft.pair;
 
+import com.nearsoft.pair.visitor.Visitor;
+
 public abstract class DocumentPart {
     private String text;
 
