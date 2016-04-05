@@ -30,9 +30,11 @@ This is a really simple pair programming scenario, it is not important if the ca
 
 #### FAQ:
 
-- What if I haven't implemented before the patterns used in this exercise?
- The test are designed to implement all the required parts of the pattern, you can search about the pattern intent in internet
-- What if I haven't Hamcrest Matchers? 
- Hamcrest Matchers are used to increment readability in assertion parts of the tests, they are self-explained. *is* is looking for equality, *not* is negating the expresion, etc. 
-- What if I haven't used @WebSocket? 
- You don't need to modify the class that uses @WebSocket, if you implement the Observable using its tests you can later use ChatWebSocketHandler to run a jetty server and live test your code.
+***Q:*** What if I haven't implemented before the patterns used in this exercise?
+***A:*** The test are designed to implement all the required parts of the pattern, you can search about the pattern intent in internet
+
+***Q:*** What if I haven't Hamcrest Matchers? 
+***A:*** Hamcrest Matchers are used to increment readability in assertion parts of the tests, they are self-explained. *is* is looking for equality, *not* is negating the expresion, etc. 
+
+***Q:*** What if I haven't used @WebSocket? 
+***A:*** You don't need to modify the class that uses @WebSocket, if you implement the Observable using its tests you can later use ChatWebSocketHandler to run a jetty server and live test your code.
