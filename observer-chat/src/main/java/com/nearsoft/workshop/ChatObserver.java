@@ -5,6 +5,7 @@ import org.json.JSONObject;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Objects;
 
 import static j2html.TagCreator.*;
 
@@ -45,5 +46,19 @@ public class ChatObserver {
 
     public Session getSession() {
         return _session;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ChatObserver that = (ChatObserver) o;
+        return Objects.equals(_session, that._session) &&
+                Objects.equals(_name, that._name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(_session, _name);
     }
 }

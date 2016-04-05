@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//Note java already has java.util.Observable;
+//Note java already has java.util.Observable
 public class ChatObservable {
 
     private List<ChatObserver> _observers;
@@ -37,5 +37,9 @@ public class ChatObservable {
 
     public ChatObserver getBySession(Session session) {
         return _observers.stream().filter(o -> o.getSession().equals(session)).findFirst().get();
+    }
+
+    public ChatObserver getByName(String name) {
+        return _observers.stream().filter(o -> o.getName().equals(name)).findFirst().get();
     }
 }
